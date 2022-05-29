@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+:root {
+    --body-bg: #202020;
+    --clr-border:#303030;
+    --clr-6: #3d3d3d;
+    --clr-5: #464646;
+    --clr-4: #616161;
+    --clr-3:  #7e7e7e;
+    --clr-2: #aaa;
+    --clr-1: #c1c1c1;   
+  }
+  
+  body {
+    background-color: var(--body-bg);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    width: 100vw;
+  }
+  

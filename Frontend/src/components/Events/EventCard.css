@@ -1,0 +1,28 @@
+
+  .event-item { 
+    text-align: center;
+    color: var(--clr-2);    
+    text-decoration: none;  
+    border-radius: 13px; 
+    margin-top: .5rem;    
+    background-color: var(--clr-5);  
+    width: 95%;
+    height: 4rem;  
+    transition: width 250ms ease-out;    
+  }
+  
+  .event-item:hover {
+    cursor: pointer;
+    width: 97%;    
+  }
+  
+  .item-header {
+    background-color: var(--clr-border);  
+    padding: 0;   
+  }
+
+  .item-date {
+      margin-top: .5rem;
+  }
+
+ 

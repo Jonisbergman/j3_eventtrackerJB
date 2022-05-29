@@ -1,0 +1,25 @@
+
+  /* Navbar */
+  
+  .navbar {  
+    background-color: var(--clr-6);
+    border-bottom: 1px solid var(--clr-border);
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-block: 1.5em ;
+  }
+
+  .nav-buttons {
+    display: flex;
+    gap: 0.8rem;
+    margin-left: auto;    
+  }
+  
+  .title-link {
+    text-decoration: none;
+    color: var(--clr-2);
+  }
