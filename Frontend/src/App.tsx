@@ -7,6 +7,8 @@ import EventDetails from './Views/EventDetails';
 import CreateEvent from './Views/CreateEvent';
 
 
+
+
 const App:React.FC = () => {
   return (
     <div className="App">
@@ -15,7 +17,7 @@ const App:React.FC = () => {
         <Routes>
           <Route path='/' element={<EventsView/>} />
           <Route path='/event/:id' element={<EventDetails/>} />
-          <Route path='/add-event' element={<CreateEvent/>} />
+          <Route path='/add-event' element={<CreateEvent/>} />          
         </Routes>
       </div>
     </div>
