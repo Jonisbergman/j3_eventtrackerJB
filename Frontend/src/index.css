@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;     
 }
 
 :root {
@@ -16,6 +16,7 @@
   }
   
   body {
+    overflow-x: hidden;
     background-color: var(--body-bg);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;

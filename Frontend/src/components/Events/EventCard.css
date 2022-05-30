@@ -1,5 +1,5 @@
 
-  .event-item { 
+  .event-item {   
     text-align: center;
     color: var(--clr-2);    
     text-decoration: none;  
@@ -13,7 +13,7 @@
   
   .event-item:hover {
     cursor: pointer;
-    width: 97%;    
+    width: 97%;       
   }
   
   .item-header {
@@ -22,7 +22,9 @@
   }
 
   .item-date {
-      margin-top: .5rem;
+      position: relative;
+      margin-top: .5rem;    
+     
   }
 
  
