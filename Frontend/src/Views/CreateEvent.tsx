@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react'
 import IEvent from '../models/IEvent'
 import axios from 'axios'
-import { useForm } from 'react-hook-form'
+
 
 
 const CreateEvent:FC = () => {
@@ -27,6 +27,13 @@ const CreateEvent:FC = () => {
 
     const validateForm = (formData:IEvent) => {
       
+        const cleartitle = document.getElementById("title-error")
+        const cleartime = document.getElementById("time-error")
+        const cleardescription = document.getElementById("desc-error")
+        cleartitle?.classList.remove('visible') 
+        cleartime?.classList.remove('visible')
+        cleardescription?.classList.remove('visible')  
+        
         if(formData.title === "") {
            const title = document.getElementById("title-error")
            title?.classList.add('visible')                     
@@ -42,12 +49,6 @@ const CreateEvent:FC = () => {
             description?.classList.add('visible')            
             return false
         }
-        const cleartitle = document.getElementById("title-error")
-        const cleartime = document.getElementById("time-error")
-        const cleardescription = document.getElementById("desc-error")
-        cleartitle?.classList.remove('visible') 
-        cleartime?.classList.remove('visible')
-        cleardescription?.classList.remove('visible')  
         return true
          
     } 
